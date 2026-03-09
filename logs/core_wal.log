@@ -1,0 +1,8 @@
+[2026-03-08 22:00:57.359]  INFO   core.wal  opened  path=logs/wal_primary.jsonl  size=0 bytes
+[2026-03-08 22:00:57.359]  INFO   core.wal  opened  path=logs/wal_secondary.jsonl  size=0 bytes
+[2026-03-08 22:00:57.359]  WARNING  core.wal  no WAL data found, starting empty
+[2026-03-08 22:00:57.359]  INFO   core.wal  opened  path=logs/wal_primary.jsonl  size=0 bytes
+[2026-03-08 22:00:57.359]  INFO   core.wal  opened  path=logs/wal_secondary.jsonl  size=0 bytes
+[2026-03-08 22:10:31.683]  INFO   core.wal  replayed  ops=24  corrupt=0  path=logs/wal_primary.jsonl
+[2026-03-08 22:10:31.683]  INFO   core.wal  replayed  ops=24  corrupt=0  path=logs/wal_secondary.jsonl
+[2026-03-08 22:10:31.684]  INFO   core.wal  WAL files are in sync  ops=24

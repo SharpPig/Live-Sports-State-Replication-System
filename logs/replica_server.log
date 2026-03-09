@@ -1,0 +1,6 @@
+[2026-03-08 22:00:59.031]  INFO   replica.server  found available port  port=8002
+[2026-03-08 22:00:59.048]  INFO   replica.server  replication task started
+[2026-03-08 22:00:59.487]  INFO   replica.server  found available port  port=8003
+[2026-03-08 22:00:59.504]  INFO   replica.server  replication task started
+[2026-03-08 22:01:00.041]  INFO   replica.server  using specified port  port=8008
+[2026-03-08 22:01:00.058]  INFO   replica.server  replication task started

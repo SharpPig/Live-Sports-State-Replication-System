@@ -1,0 +1,27 @@
+[2026-03-08 22:00:59.054]  INFO   core.state  replica subscribed  total=1
+[2026-03-08 22:00:59.510]  INFO   core.state  replica subscribed  total=2
+[2026-03-08 22:01:00.064]  INFO   core.state  replica subscribed  total=3
+[2026-03-08 22:01:59.638]  INFO   core.state  put  key=warriors_vs_heat_2024_03_08  v=1  op=f5de3cf1bcfa  ended=no  replicas=3
+[2026-03-08 22:02:01.650]  INFO   core.state  put  key=warriors_vs_heat_2024_03_08  v=2  op=b9dc0f5c9d6b  ended=no  replicas=3
+[2026-03-08 22:02:03.661]  INFO   core.state  put  key=warriors_vs_heat_2024_03_08  v=3  op=cefe8392d237  ended=no  replicas=3
+[2026-03-08 22:02:05.674]  INFO   core.state  put  key=warriors_vs_heat_2024_03_08  v=4  op=c2b1d54fd6fd  ended=no  replicas=3
+[2026-03-08 22:02:07.686]  INFO   core.state  put  key=warriors_vs_heat_2024_03_08  v=5  op=ab843c7a02f5  ended=no  replicas=3
+[2026-03-08 22:02:09.698]  INFO   core.state  put  key=warriors_vs_heat_2024_03_08  v=6  op=7a2adde361fc  ended=no  replicas=3
+[2026-03-08 22:02:11.712]  INFO   core.state  put  key=warriors_vs_heat_2024_03_08  v=7  op=e15fd4e99866  ended=no  replicas=3
+[2026-03-08 22:02:13.723]  INFO   core.state  put  key=warriors_vs_heat_2024_03_08  v=8  op=eb2c8954d0de  ended=no  replicas=3
+[2026-03-08 22:02:15.735]  INFO   core.state  put  key=warriors_vs_heat_2024_03_08  v=9  op=b207722de8e7  ended=no  replicas=3
+[2026-03-08 22:02:17.747]  INFO   core.state  put  key=warriors_vs_heat_2024_03_08  v=10  op=9fcfac4e7975  ended=no  replicas=3
+[2026-03-08 22:02:19.760]  INFO   core.state  put  key=warriors_vs_heat_2024_03_08  v=11  op=58f1f7f0b6dc  ended=yes  replicas=3
+[2026-03-08 22:03:08.966]  INFO   core.state  put  key=loy_vs_byu_2024_03_10  v=1  op=a0f3101dbdc1  ended=no  replicas=3
+[2026-03-08 22:03:10.978]  INFO   core.state  put  key=loy_vs_byu_2024_03_10  v=2  op=2774bee98ea5  ended=no  replicas=3
+[2026-03-08 22:03:12.991]  INFO   core.state  put  key=loy_vs_byu_2024_03_10  v=3  op=abaa095d9152  ended=no  replicas=3
+[2026-03-08 22:03:15.003]  INFO   core.state  put  key=loy_vs_byu_2024_03_10  v=4  op=4e3c01accb92  ended=no  replicas=3
+[2026-03-08 22:03:17.015]  INFO   core.state  put  key=loy_vs_byu_2024_03_10  v=5  op=3705add68062  ended=no  replicas=3
+[2026-03-08 22:03:19.027]  INFO   core.state  put  key=loy_vs_byu_2024_03_10  v=6  op=1969a2de1a31  ended=no  replicas=3
+[2026-03-08 22:03:21.040]  INFO   core.state  put  key=loy_vs_byu_2024_03_10  v=7  op=1ee7552262f9  ended=no  replicas=3
+[2026-03-08 22:03:23.050]  INFO   core.state  put  key=loy_vs_byu_2024_03_10  v=8  op=88bcadbd236d  ended=no  replicas=3
+[2026-03-08 22:03:25.063]  INFO   core.state  put  key=loy_vs_byu_2024_03_10  v=9  op=7db2c7f336b1  ended=no  replicas=3
+[2026-03-08 22:03:27.075]  INFO   core.state  put  key=loy_vs_byu_2024_03_10  v=10  op=fa2ed1ab06bd  ended=no  replicas=3
+[2026-03-08 22:03:29.087]  INFO   core.state  put  key=loy_vs_byu_2024_03_10  v=11  op=b0392b518d73  ended=yes  replicas=3
+[2026-03-08 22:05:28.363]  INFO   core.state  del  key=warriors_vs_heat_2024_03_08  v=12  op=f167ce391052  replicas=3
+[2026-03-08 22:10:08.618]  INFO   core.state  del  key=loy_vs_byu_2024_03_10  v=12  op=e6f0a8034674  replicas=3

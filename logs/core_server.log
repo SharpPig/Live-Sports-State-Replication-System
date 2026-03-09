@@ -1,0 +1,5 @@
+[2026-03-08 22:00:57.375]  INFO   core.server  starting core server  port=8001
+[2026-03-08 22:00:59.054]  INFO   core.server  snapshot sent  keys=0
+[2026-03-08 22:00:59.510]  INFO   core.server  snapshot sent  keys=0
+[2026-03-08 22:01:00.064]  INFO   core.server  snapshot sent  keys=0
+[2026-03-08 22:09:38.772]  WARNING  core.server  auth rejected  path=/state/loy_vs_byu_2024_03_10  ip=127.0.0.1
