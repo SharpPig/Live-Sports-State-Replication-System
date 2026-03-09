@@ -1,5 +1,7 @@
 # Live Sports State Replication System
 
+### You can open example_run.pdf to see it in action
+
 A single writer, multi reader distributed state machine built for live score and odds propagation. The core service owns all writes and persists them to a dual **Write-Ahead Log (WAL)** before applying to memory. Replicas subscribe over WebSocket, maintain their own in-memory copies, and serve read traffic. A separate dashboard polls different replicas and renders live scoreboards.
 
 I built this because one thing I notice constantly on both Kalshi and Polymarket US is that the app experience for score and odds synchronization can be laggy or outdated. Scores and odds need to flow fast, and the read path needs to scale independently of the write path. This system separates those concerns cleanly.
