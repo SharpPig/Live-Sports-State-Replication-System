@@ -76,3 +76,51 @@
 [2026-03-08 22:10:08.619]  INFO   replica.replicator  apply  action=delete  key=loy_vs_byu_2024_03_10  v=12  lag=5.5ms  total_ops=24
 [2026-03-08 22:10:08.619]  INFO   replica.replicator  apply  action=delete  key=loy_vs_byu_2024_03_10  v=12  lag=5.7ms  total_ops=24
 [2026-03-08 22:10:08.619]  INFO   replica.replicator  apply  action=delete  key=loy_vs_byu_2024_03_10  v=12  lag=5.9ms  total_ops=24
+[2026-03-08 22:30:48.423]  INFO   replica.replicator  apply  action=put  key=loy_vs_byu_2024_03_10  v=1  lag=5.5ms  total_ops=25
+[2026-03-08 22:30:48.424]  INFO   replica.replicator  apply  action=put  key=loy_vs_byu_2024_03_10  v=1  lag=5.7ms  total_ops=25
+[2026-03-08 22:30:48.424]  INFO   replica.replicator  apply  action=put  key=loy_vs_byu_2024_03_10  v=1  lag=5.9ms  total_ops=25
+[2026-03-08 22:35:01.673]  WARNING  replica.replicator  connection error  reason=no close frame received or sent  attempt=0  retry_in=1s
+[2026-03-08 22:35:01.673]  WARNING  replica.replicator  connection error  reason=no close frame received or sent  attempt=0  retry_in=1s
+[2026-03-08 22:35:01.673]  WARNING  replica.replicator  connection error  reason=no close frame received or sent  attempt=0  retry_in=1s
+[2026-03-08 22:35:02.673]  INFO   replica.replicator  connecting  attempt=1  url=ws://localhost:8001/replicate?token=replica-secret
+[2026-03-08 22:35:02.674]  INFO   replica.replicator  connecting  attempt=1  url=ws://localhost:8001/replicate?token=replica-secret
+[2026-03-08 22:35:02.675]  WARNING  replica.replicator  connection error  reason=[Errno 111] Connect call failed ('127.0.0.1', 8001)  attempt=1  retry_in=2s
+[2026-03-08 22:35:02.675]  WARNING  replica.replicator  connection error  reason=[Errno 111] Connect call failed ('127.0.0.1', 8001)  attempt=1  retry_in=2s
+[2026-03-08 22:35:02.675]  INFO   replica.replicator  connecting  attempt=1  url=ws://localhost:8001/replicate?token=replica-secret
+[2026-03-08 22:35:02.676]  WARNING  replica.replicator  connection error  reason=[Errno 111] Connect call failed ('127.0.0.1', 8001)  attempt=1  retry_in=2s
+[2026-03-08 22:35:04.675]  INFO   replica.replicator  connecting  attempt=2  url=ws://localhost:8001/replicate?token=replica-secret
+[2026-03-08 22:35:04.676]  INFO   replica.replicator  connecting  attempt=2  url=ws://localhost:8001/replicate?token=replica-secret
+[2026-03-08 22:35:04.676]  WARNING  replica.replicator  connection error  reason=[Errno 111] Connect call failed ('127.0.0.1', 8001)  attempt=2  retry_in=4s
+[2026-03-08 22:35:04.677]  WARNING  replica.replicator  connection error  reason=[Errno 111] Connect call failed ('127.0.0.1', 8001)  attempt=2  retry_in=4s
+[2026-03-08 22:35:04.677]  INFO   replica.replicator  connecting  attempt=2  url=ws://localhost:8001/replicate?token=replica-secret
+[2026-03-08 22:35:04.678]  WARNING  replica.replicator  connection error  reason=[Errno 111] Connect call failed ('127.0.0.1', 8001)  attempt=2  retry_in=4s
+[2026-03-08 22:35:08.677]  INFO   replica.replicator  connecting  attempt=3  url=ws://localhost:8001/replicate?token=replica-secret
+[2026-03-08 22:35:08.679]  WARNING  replica.replicator  connection error  reason=[Errno 111] Connect call failed ('127.0.0.1', 8001)  attempt=3  retry_in=8s
+[2026-03-08 22:35:16.680]  INFO   replica.replicator  connecting  attempt=4  url=ws://localhost:8001/replicate?token=replica-secret
+[2026-03-08 22:35:16.681]  WARNING  replica.replicator  connection error  reason=[Errno 111] Connect call failed ('127.0.0.1', 8001)  attempt=4  retry_in=16s
+[2026-03-08 22:35:32.682]  INFO   replica.replicator  connecting  attempt=5  url=ws://localhost:8001/replicate?token=replica-secret
+[2026-03-08 22:35:32.683]  WARNING  replica.replicator  connection error  reason=[Errno 111] Connect call failed ('127.0.0.1', 8001)  attempt=5  retry_in=30s
+[2026-03-08 22:36:02.684]  INFO   replica.replicator  connecting  attempt=6  url=ws://localhost:8001/replicate?token=replica-secret
+[2026-03-08 22:36:02.685]  WARNING  replica.replicator  connection error  reason=[Errno 111] Connect call failed ('127.0.0.1', 8001)  attempt=6  retry_in=30s
+[2026-03-08 22:36:32.685]  INFO   replica.replicator  connecting  attempt=7  url=ws://localhost:8001/replicate?token=replica-secret
+[2026-03-08 22:36:32.686]  WARNING  replica.replicator  connection error  reason=[Errno 111] Connect call failed ('127.0.0.1', 8001)  attempt=7  retry_in=30s
+[2026-03-08 22:37:02.687]  INFO   replica.replicator  connecting  attempt=8  url=ws://localhost:8001/replicate?token=replica-secret
+[2026-03-08 22:37:02.688]  WARNING  replica.replicator  connection error  reason=[Errno 111] Connect call failed ('127.0.0.1', 8001)  attempt=8  retry_in=30s
+[2026-03-08 22:37:32.689]  INFO   replica.replicator  connecting  attempt=9  url=ws://localhost:8001/replicate?token=replica-secret
+[2026-03-08 22:37:32.690]  WARNING  replica.replicator  connection error  reason=[Errno 111] Connect call failed ('127.0.0.1', 8001)  attempt=9  retry_in=30s
+[2026-03-08 22:38:02.690]  INFO   replica.replicator  connecting  attempt=10  url=ws://localhost:8001/replicate?token=replica-secret
+[2026-03-08 22:38:02.691]  WARNING  replica.replicator  connection error  reason=[Errno 111] Connect call failed ('127.0.0.1', 8001)  attempt=10  retry_in=30s
+[2026-03-08 22:38:32.693]  INFO   replica.replicator  connecting  attempt=11  url=ws://localhost:8001/replicate?token=replica-secret
+[2026-03-08 22:38:32.694]  WARNING  replica.replicator  connection error  reason=[Errno 111] Connect call failed ('127.0.0.1', 8001)  attempt=11  retry_in=30s
+[2026-03-08 22:39:02.695]  INFO   replica.replicator  connecting  attempt=12  url=ws://localhost:8001/replicate?token=replica-secret
+[2026-03-08 22:39:02.696]  WARNING  replica.replicator  connection error  reason=[Errno 111] Connect call failed ('127.0.0.1', 8001)  attempt=12  retry_in=30s
+[2026-03-08 22:39:32.696]  INFO   replica.replicator  connecting  attempt=13  url=ws://localhost:8001/replicate?token=replica-secret
+[2026-03-08 22:39:32.697]  WARNING  replica.replicator  connection error  reason=[Errno 111] Connect call failed ('127.0.0.1', 8001)  attempt=13  retry_in=30s
+[2026-03-08 22:40:02.698]  INFO   replica.replicator  connecting  attempt=14  url=ws://localhost:8001/replicate?token=replica-secret
+[2026-03-08 22:40:02.699]  WARNING  replica.replicator  connection error  reason=[Errno 111] Connect call failed ('127.0.0.1', 8001)  attempt=14  retry_in=30s
+[2026-03-08 22:40:32.700]  INFO   replica.replicator  connecting  attempt=15  url=ws://localhost:8001/replicate?token=replica-secret
+[2026-03-08 22:40:32.700]  WARNING  replica.replicator  connection error  reason=[Errno 111] Connect call failed ('127.0.0.1', 8001)  attempt=15  retry_in=30s
+[2026-03-08 22:41:02.702]  INFO   replica.replicator  connecting  attempt=16  url=ws://localhost:8001/replicate?token=replica-secret
+[2026-03-08 22:41:02.702]  WARNING  replica.replicator  connection error  reason=[Errno 111] Connect call failed ('127.0.0.1', 8001)  attempt=16  retry_in=30s
+[2026-03-08 22:41:32.703]  INFO   replica.replicator  connecting  attempt=17  url=ws://localhost:8001/replicate?token=replica-secret
+[2026-03-08 22:41:32.704]  WARNING  replica.replicator  connection error  reason=[Errno 111] Connect call failed ('127.0.0.1', 8001)  attempt=17  retry_in=30s

@@ -25,3 +25,4 @@
 [2026-03-08 22:03:29.087]  INFO   core.state  put  key=loy_vs_byu_2024_03_10  v=11  op=b0392b518d73  ended=yes  replicas=3
 [2026-03-08 22:05:28.363]  INFO   core.state  del  key=warriors_vs_heat_2024_03_08  v=12  op=f167ce391052  replicas=3
 [2026-03-08 22:10:08.618]  INFO   core.state  del  key=loy_vs_byu_2024_03_10  v=12  op=e6f0a8034674  replicas=3
+[2026-03-08 22:30:48.423]  INFO   core.state  put  key=loy_vs_byu_2024_03_10  v=1  op=fff5330e52f6  ended=no  replicas=3

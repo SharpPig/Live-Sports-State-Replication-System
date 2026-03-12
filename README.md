@@ -383,20 +383,3 @@ novig/
 | **Conditional page refresh** | The dashboard JS checks for score changes via `/api/games` every second. It only reloads the page if something actually changed. This minimizes unnecessary network traffic. |
 
 ---
-
-## AI & Tools
-
-Built with Windsurf (SWE-1.5 and GPT-5.1-Codex models). I used it primarily for line-by-line implementation and debugging, rather than architectural decisions.
-
-### What the AI did well
-- **Line-by-line implementation.** While I did agree with some of the wider architectural suggestions that Cascade proposed, I found it worked best for line-by-line implementation. It's really good at fixing small things -- a missing import, a wrong default value, a syntax error in templates -- while I could be more of an architect of the system.
-- **Debugging.** It caught a `KeyError`s in APIs replay where `keys` were passed incorrectely. It also caught that `asyncio.create_task()` can't be called outside a running event loop.
-- **Frontend implementation.** It helped with generating the dashboard UI and JavaScript code, however, the long term viability of the code it wrote is questionable.
-- **Logging** It helped with generating log statements throughout the code and providing log.py modules for core and replica services.
-
-### Where I disagreed
-- **The AI wanted to hardcode many things.** Replica URLs, port numbers, WAL file paths. I pushed for dynamic discovery (port scanning for replicas) and dynamic paths.
-- **WAL ordering.** I made the deliberate choice to write to WAL before applying to memory. The AI initially had it the other way around. This matters for crash recovery and data redundancy, you can't say one thing to the end user and do something else.
-- **Dashboard architecture.** The AI suggested combining my dashboard into replica nodes. I rejected this because API services shouldn't serve frontend UIs.
-- **UDP consideration.** I considered and rejected UDP for replication. The AI didn't push back when I brought it up, but in a real production environment with score/odds updating across many replicas, a UDP broadcast could work for non critical updates. For this state machine though, packet loss would break consistency that I wanted to build in the future between replicas.
-- **It generated emoji-heavy logging and verbose demo scripts.** I stripped most of that out.
